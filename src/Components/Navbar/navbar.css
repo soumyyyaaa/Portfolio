@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.nav-link {
+    color: #110e38 !important;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.offcanvas-header {
+    font-weight: bold;
+    color: #110e38;
+    font-family: 'Inter', sans-serif;
+    padding: 8px;
+    
+}
