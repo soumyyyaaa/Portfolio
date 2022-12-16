@@ -4,12 +4,16 @@
     color: #110e38 !important;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #585674 !important;
 }
 
 .offcanvas-header {
     font-weight: bold;
     color: #110e38;
     font-family: 'Inter', sans-serif;
-    padding: 8px;
     
 }

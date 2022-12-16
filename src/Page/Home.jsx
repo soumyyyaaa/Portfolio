@@ -21,8 +21,8 @@ function Home() {
             get in touch.
             <br />
           </p>
-          <button className = "butn">Get in touch</button>
-          <button className = "butn"><FontAwesomeIcon icon={faArrowDownLong} /> See my works</button>
+          <a href="#contact-me"><button className = "butn">Get in touch</button></a>
+          <a href="#project"><button className = "butn"><FontAwesomeIcon icon={faArrowDownLong} /> See my works</button></a>
         </div>
         <div>
           <img src={me} alt="my-img" width="400px" className="pic" />

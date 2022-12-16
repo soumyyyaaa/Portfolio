@@ -27,7 +27,7 @@ function Navbars() {
                   <Nav.Link eventKey="link-1">Projects</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/contactme" eventKey="link-2">Contact Me</Nav.Link>
+                  <Nav.Link href="#contact-me" eventKey="link-2">Contact Me</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link href="https://github.com/soumyyyaaa" target="_blank">
