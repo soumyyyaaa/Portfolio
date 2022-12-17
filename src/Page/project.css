@@ -34,3 +34,47 @@
 .view-text:hover {
     color: #585674;
 }
+
+.row {
+    padding: 2% 5% 15% 11%;
+}
+
+.col-lg-4 {
+    text-align: center;
+    transition: all .3s ease-in-out;
+    border-radius: 5%;
+}
+
+.pro-img {
+  width: 70%;
+}
+
+.pro-text {
+    visibility: hidden;
+    opacity: 0;
+    color:#110e38;
+    font-size: 25px;
+    margin-top: -8.5rem;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.col-lg-4:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
+
+.col-lg-4:hover .pro-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.col-lg-4:hover .pro-img {
+    opacity: 20%;
+    filter: blur(4px);
+
+}
