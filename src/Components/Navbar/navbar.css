@@ -17,3 +17,9 @@
     font-family: 'Inter', sans-serif;
     
 }
+
+.navbar-expand-md .offcanvas .offcanvas-body {
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

@@ -2,10 +2,10 @@
 
 body {
     background-color: #f2f6ff !important;
-    padding: 1% 5% 1% 0%;
 }
 
 .container {
+    padding: 1% 5% 1% 0%;
     display: flex;
     justify-content: space-between;
     margin-top: 3em;

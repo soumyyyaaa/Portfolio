@@ -46,7 +46,7 @@
 }
 
 .pro-img {
-  width: 70%;
+  width: 50%;
 }
 
 .pro-text {
@@ -54,7 +54,7 @@
     opacity: 0;
     color:#110e38;
     font-size: 25px;
-    margin-top: -8.5rem;
+    margin-top: -7rem;
     font-family: 'Inter', sans-serif;
     line-height: 1.2;
     letter-spacing: -1px;
