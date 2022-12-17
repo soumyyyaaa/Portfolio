@@ -5,15 +5,18 @@ body {
 }
 
 .container {
-    padding: 1% 5% 1% 0%;
+    margin-top: 5%;
+}
+
+.home-top {
     display: flex;
     justify-content: space-between;
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 .first {
-    width: 50%;
-    margin: auto;
+    width: 45%;
+    margin: auto 0;
 }
 
 .heading {
