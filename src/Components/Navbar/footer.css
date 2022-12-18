@@ -5,8 +5,8 @@
 }
 
 .footer-icon {
-    padding: 2%;
     color: #fff;
+    padding: 2%;
 }
 
 .git:hover {
@@ -26,7 +26,7 @@
 
 .footer-menu {
     text-decoration: none;
-    padding: 2%;
+    padding: 0 2%;
     color: #fff;
     font-family: 'Inter', sans-serif;
     font-weight: bolder;
@@ -38,4 +38,11 @@
 
 .menu {
     margin-top: 5%;
+}
+
+.footer-copyright {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    margin-top: 5%
 }

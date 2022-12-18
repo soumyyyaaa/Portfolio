@@ -44,7 +44,6 @@
     margin-top: 5%;
     text-align: center;
     transition: all .3s ease-in-out;
-    border-radius: 5%;
 }
 
 .pro-img {
@@ -78,5 +77,4 @@
 .pro:hover .pro-img {
     opacity: 20%;
     filter: blur(4px);
-
 }

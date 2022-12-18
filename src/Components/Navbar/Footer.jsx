@@ -36,6 +36,7 @@ function Footer() {
             <a href="/projects" className="footer-menu">Projects</a>
             <a href="#contact-me" className="footer-menu">Contact Me</a>
         </div>
+        <p className="footer-copyright">2022 <i className="fa fa-regular fa-copyright"></i> Soumya Agrawal</p>
       </div>
     </>
   );
