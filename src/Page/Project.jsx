@@ -10,7 +10,7 @@ function Project() {
   return (
     <>
       <div className="container">
-        <div className="project-top">
+        <div id="project-top">
           <div>
             <h3 className="heading3">Latest Works</h3>
             <p className="project-text">
@@ -20,9 +20,9 @@ function Project() {
           </div>
           <div>
             <button className="view-btn">
-              <p className="view-text">
+              <a className="view-text" href="/projects">
                 View all <FontAwesomeIcon icon={faArrowRightLong} />
-              </p>
+              </a>
             </button>
           </div>
         </div>

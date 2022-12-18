@@ -3,6 +3,7 @@ import "./home.css";
 import me from "../mesq.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDownLong } from "@fortawesome/free-solid-svg-icons";
+import Project from "./Project";
 
 function Home() {
   return (
@@ -25,7 +26,7 @@ function Home() {
             <a href="#contact-me">
               <button className="butn">Get in touch</button>
             </a>
-            <a href="#project">
+            <a href="#project-top">
               <button className="butn">
                 <FontAwesomeIcon icon={faArrowDownLong} /> See my works
               </button>
@@ -36,6 +37,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Project />
     </>
   );
 }

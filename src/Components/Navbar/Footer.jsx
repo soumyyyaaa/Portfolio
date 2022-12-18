@@ -32,7 +32,7 @@ function Footer() {
         </a>
         </div>
         <div className="menu">
-            <a href="/home" className="footer-menu">Home</a>
+            <a href="/" className="footer-menu">Home</a>
             <a href="/projects" className="footer-menu">Projects</a>
             <a href="#contact-me" className="footer-menu">Contact Me</a>
         </div>

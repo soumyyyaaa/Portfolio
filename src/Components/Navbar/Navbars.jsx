@@ -19,15 +19,15 @@ function Navbars() {
               <h1 className="offcanvas-header">Menu</h1>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className="justify-content-center" activeKey="/home">
+              <Nav className="justify-content-center">
                 <Nav.Item>
-                  <Nav.Link href="/home">Home</Nav.Link>
+                  <Nav.Link href="/">Home</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>  
+                  <Nav.Link  href="/projects">Projects</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="link-1">Projects</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link href="#contact-me" eventKey="link-2">Contact Me</Nav.Link>
+                  <Nav.Link href="#contact-me">Contact Me</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link href="https://github.com/soumyyyaaa" target="_blank">

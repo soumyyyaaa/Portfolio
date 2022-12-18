@@ -1,4 +1,4 @@
-.project-top{
+#project-top{
     display: flex;
     justify-content: space-between;
 }
@@ -28,6 +28,7 @@
     margin-bottom: 0;
     color:#110e38;
     text-align: justify;
+    text-decoration: none;
 }
 
 .view-text:hover {

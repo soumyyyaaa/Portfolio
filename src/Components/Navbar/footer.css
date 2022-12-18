@@ -1,12 +1,11 @@
 .footer {
-    padding: 7% 20% 7% 25%;
+    padding: 7% 15%;
     text-align: center;
     background: linear-gradient(90deg,#1495a7 0%,#003687 167%);
 }
 
 .footer-icon {
     padding: 2%;
-    margin-left: 2%;
     color: #fff;
 }
 
