@@ -79,17 +79,20 @@ function Projects() {
               </a>
               <p className="projects-text">Space Tourism</p>
             </div>
-          </div>
+            <div className="pro"></div>
             <div className="pro">
               <a
                 href="https://sunnyside-agency-sable.vercel.app"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <img className="projects-single-img" src={sunny} alt="sunnyside" />
+                <img className="projects-img" src={sunny} alt="sunnyside" />
               </a>
               <p className="projects-text">Sunnyside Agency</p>
             </div>
+            <div className="pro"></div>
+          </div>
+            
         </div>
       </div>
     </>
