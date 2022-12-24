@@ -11,21 +11,17 @@ function Project() {
     <>
       <div className="container">
         <div id="project-top">
-          <div>
             <h3 className="heading3">Latest Works</h3>
-            <p className="project-text">
-              I show only my best works built completely with passion,
-              simplicity and creativity!
-            </p>
-          </div>
-          <div>
             <button className="view-btn">
               <a className="view-text" href="/projects">
                 View all <FontAwesomeIcon icon={faArrowRightLong} />
               </a>
             </button>
-          </div>
         </div>
+        <p className="project-text">
+              I show only my best works built completely with passion,
+              simplicity and creativity!
+            </p>
         <div className="project-mid">
           <div className="pro">
             <a

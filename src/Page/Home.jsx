@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import me from "../mesq.jpg";
+import memo from "../mesqmo.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDownLong } from "@fortawesome/free-solid-svg-icons";
 import Project from "./Project";
@@ -11,6 +12,7 @@ function Home() {
       <div className="container">
         <div className="home-top">
           <div className="first">
+            <img src={memo} alt="my-img" width="400px" className="mob" />
             <h1 className="heading">
               Hi there, I am <br /> Soumya Agrawal
             </h1>

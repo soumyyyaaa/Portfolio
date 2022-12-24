@@ -36,8 +36,9 @@
 }
 
 .project-mid {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 5%;
 }
 
 .pro {
@@ -55,18 +56,17 @@
     opacity: 0;
     color:#110e38;
     font-size: 20px;
-    margin-top: -7.5rem;
     font-family: 'Inter', sans-serif;
     line-height: 1.2;
     letter-spacing: -1px;
     font-weight: bold;
     text-align: center;
+    margin-top: 2%;
 }
 
 .pro:hover {
     transform: scale(1.2);
     cursor: pointer;
-
 }
 
 .pro:hover .pro-text {
@@ -77,4 +77,35 @@
 .pro:hover .pro-img {
     opacity: 20%;
     filter: blur(4px);
+}
+
+@media only screen and (max-width: 768px) {
+    .heading3 {
+        font-size: 28px;
+    }
+
+    .view-text {
+        font-size: 14px;
+    }
+
+    .project-text {
+        width: 100%;
+    }
+
+    #project-top {
+        align-items: baseline;
+    }
+
+    .project-mid {
+        grid-template-columns: auto;
+    }
+
+    .pro-img {
+        width: 40%;
+    }
+
+    .pro-text {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
 }

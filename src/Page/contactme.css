@@ -6,7 +6,6 @@
     color: #110e38;
     font-size: 58px;
     text-align: center;
-    margin-top: 12%;
 }
 
 .forms {
@@ -55,4 +54,14 @@
     background-image: -o-linear-gradient(top, #28a0eb, #3498db);
     background-image: linear-gradient(to bottom, #28a0eb, #3498db);
     text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .heading2 {
+        font-size: 40px;
+    }
+
+    .forms {
+        padding: 0;
+    }
 }

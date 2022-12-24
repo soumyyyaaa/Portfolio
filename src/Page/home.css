@@ -19,6 +19,12 @@ body {
     margin: auto 0;
 }
 
+.mob {
+    display: none;
+    border-radius: 40px;
+    border: 2px solid none;
+}
+
 .heading {
     color: #110e38;
     font-size: 58px;
@@ -70,4 +76,39 @@ body {
     background-image: -o-linear-gradient(top, #28a0eb, #3498db);
     background-image: linear-gradient(to bottom, #28a0eb, #3498db);
     text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 3% 6% 10% 6% !important;
+        margin-top: 0;
+    }
+
+    .home-top {
+        display: block;
+    }
+
+    .first {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mob {
+        display: block;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .heading {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .text {
+        margin-bottom: 0;
+    }
+
+    .pic {
+        display: none;
+    }
 }
