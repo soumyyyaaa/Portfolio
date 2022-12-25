@@ -53,6 +53,24 @@
     opacity: 1;
 }
 
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .para-projects {
+        width: 100%;
+    }
+
+    .projects-mid {
+        row-gap: 0;
+    }
+    
+    .projects {
+        margin-bottom: 0;
+    }
+    
+    .projects-img {
+        width: 60%;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .heading-projects {
         font-size: 32px;
