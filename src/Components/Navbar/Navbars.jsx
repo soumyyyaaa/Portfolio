@@ -27,9 +27,6 @@ function Navbars() {
                   <Nav.Link  href="/projects">Projects</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="#contact-me">Contact Me</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
                   <Nav.Link href="https://github.com/soumyyyaaa" target="_blank">
                     <i className="fa fa-brands fa-github fa-lg"></i>
                   </Nav.Link>
