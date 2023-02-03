@@ -4,12 +4,14 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import logo from "../../S-Logo.png"
 
 function Navbars() {
   return (
     <>
       <Navbar key="md" expand="md" className="justify-content-center">
         <Container fluid>
+        <a className="navbar-brand" href="/"><img className="logo" src= {logo} alt = "Soumya"/></a>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-md`}
@@ -19,7 +21,7 @@ function Navbars() {
               <h1 className="offcanvas-header">Menu</h1>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className="justify-content-center">
+              <Nav className="justify-content-end ">
                 <Nav.Item>
                   <Nav.Link href="/">Home</Nav.Link>
                 </Nav.Item>

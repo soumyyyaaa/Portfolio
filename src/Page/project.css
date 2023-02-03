@@ -93,7 +93,23 @@
     }
 
     .pro-text {
-        margin-bottom: 0;
+        visibility: visible;
+        opacity: 1;
+        margin-top: 5%;
+    }
+
+    .pro:hover {
+        transform: none;
+    }
+
+    .pro:hover .pro-text {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .pro:hover .pro-img {
+        opacity: 1;
+        filter: none;
     }
 }
 
@@ -121,9 +137,27 @@
     .pro-img {
         width: 40%;
     }
-
+    
     .pro-text {
+        margin-bottom: 8%;
         font-size: 16px;
-        margin-bottom: 0;
+        visibility: visible;
+        opacity: 1;
+        margin-top: 3%;
     }
+
+    .pro:hover {
+        transform: none;
+    }
+
+    .pro:hover .pro-text {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .pro:hover .pro-img {
+        opacity: 1;
+        filter: none;
+    }
+
 }
