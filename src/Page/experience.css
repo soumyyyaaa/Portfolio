@@ -1,0 +1,59 @@
+.experience-container1 {
+    padding: 3% 8% 1% 8%;
+    color: #110e38;
+    text-align: justify;
+}
+
+.experience-heading2 {
+    font-family: "Inter", sans-serif;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.experience-heading4 {
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+.experience-heading6 {
+    font-weight: bold;
+}
+
+.experience-container2 {
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .experience-container1 {
+        padding: 5% 7% 3% 7%;
+    }
+
+    .experience-heading4 {
+        margin-top: 5%;
+    }
+
+    .experience-container2 {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .experience-container1 {
+        padding: 10% 8%;
+    }
+
+    .experience-heading4 {
+        margin-top: 10%;
+        text-align: left;
+    }
+
+    .experience-container2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
