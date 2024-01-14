@@ -2,9 +2,9 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import "./project.css";
-import simon from "../../src/memory.png";
 import space from "../../src/space-tourism.png";
-import sunny from "../../src/sun.png";
+import book from "../book.png";
+import pregnant from "../pregnant.png";
 
 function Project() {
     return (
@@ -25,17 +25,28 @@ function Project() {
                 <div className="project-mid">
                     <div className="pro">
                         <a
-                            href="https://simon-says-rho.vercel.app"
+                            href="https://bookify-eta.vercel.app"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
+                            <img className="pro-img" src={book} alt="bookify" />
+                        </a>
+                        <p className="pro-text">Bookify</p>
+                    </div>
+
+                    <div className="pro">
+                        <a
+                            href="https://ankuram.vercel.app"
                             rel="noopener noreferrer"
                             target="_blank"
                         >
                             <img
                                 className="pro-img"
-                                src={simon}
-                                alt="simon-says"
+                                src={pregnant}
+                                alt="sunnyside"
                             />
                         </a>
-                        <p className="pro-text">Simon Says</p>
+                        <p className="pro-text">Ankuram</p>
                     </div>
                     <div className="pro">
                         <a
@@ -50,20 +61,6 @@ function Project() {
                             />
                         </a>
                         <p className="pro-text">Space Tourism</p>
-                    </div>
-                    <div className="pro">
-                        <a
-                            href="https://sunnyside-agency-sable.vercel.app"
-                            rel="noopener noreferrer"
-                            target="_blank"
-                        >
-                            <img
-                                className="pro-img"
-                                src={sunny}
-                                alt="sunnyside"
-                            />
-                        </a>
-                        <p className="pro-text">Sunnyside Agency</p>
                     </div>
                 </div>
             </div>
