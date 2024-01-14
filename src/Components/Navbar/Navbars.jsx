@@ -7,6 +7,15 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import logo from "../../S-Logo.png";
 
 function Navbars() {
+    const onButtonClick = () => {
+        const pdfUrl = "../../Resume.pdf";
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        link.download = "Resume.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
     return (
         <>
             <Navbar key="md" expand="md" className="justify-content-center">
@@ -38,6 +47,9 @@ function Navbars() {
                                     <Nav.Link href="/experience">
                                         Experience
                                     </Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item onClick={onButtonClick}>
+                                    <Nav.Link>Resume</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link

@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 .nav-link {
     color: #110e38 !important;
     text-decoration: none;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 20px;
 }
@@ -12,11 +12,18 @@
     color: #585674 !important;
 }
 
+a {
+    color: #110e38 !important;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .offcanvas-header {
     font-weight: bold;
     color: #110e38;
-    font-family: 'Inter', sans-serif;
-    
+    font-family: "Inter", sans-serif;
 }
 
 .navbar-expand-md .offcanvas .offcanvas-body {
@@ -29,7 +36,7 @@
     font-size: 20px;
     font-weight: bold;
     color: #110e38;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .logo {

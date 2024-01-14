@@ -23,73 +23,31 @@ function Projects() {
                     <div className="projects-mid">
                         <div className="pro">
                             <a
-                                href="https://guess-the-no.vercel.app"
+                                href="https://bookify-eta.vercel.app"
                                 rel="noopener noreferrer"
                                 target="_blank"
                             >
                                 <img
                                     className="projects-img"
-                                    src={guess}
-                                    alt="guess-the-number"
+                                    src={book}
+                                    alt="sunnyside"
                                 />
                             </a>
-                            <p className="projects-text">Guess The Number</p>
+                            <p className="projects-text">Bookify</p>
                         </div>
                         <div className="pro">
                             <a
-                                href="https://roll-the-dice-amber.vercel.app"
+                                href="https://ankuram.vercel.app"
                                 rel="noopener noreferrer"
                                 target="_blank"
                             >
                                 <img
                                     className="projects-img"
-                                    src={roll}
-                                    alt="roll-the-dice"
+                                    src={pregnant}
+                                    alt="sunnyside"
                                 />
                             </a>
-                            <p className="projects-text">Roll The Dice</p>
-                        </div>
-                        <div className="pro">
-                            <a
-                                href="https://tindog-bootcamp.vercel.app"
-                                rel="noopener noreferrer"
-                                target="_blank"
-                            >
-                                <img
-                                    className="projects-img"
-                                    src={tindog}
-                                    alt="tindog"
-                                />
-                            </a>
-                            <p className="projects-text">Tindog</p>
-                        </div>
-                        <div className="pro">
-                            <a
-                                href="https://drum-cyan.vercel.app"
-                                rel="noopener noreferrer"
-                                target="_blank"
-                            >
-                                <img
-                                    className="projects-img"
-                                    src={drumkit}
-                                    alt="drumkit"
-                                />
-                            </a>
-                            <p className="projects-text">Drumkit</p>
-                        </div>
-                        <div className="pro">
-                            <a
-                                href="https://simon-says-rho.vercel.app"
-                                rel="noopener noreferrer"
-                                target="_blank"
-                            >
-                                <img
-                                    className="projects-img"
-                                    src={simon}
-                                    alt="simon-says"
-                                />
-                            </a>
-                            <p className="projects-text">Simon Says</p>
+                            <p className="projects-text">Ankuram</p>
                         </div>
                         <div className="pro">
                             <a
@@ -121,31 +79,73 @@ function Projects() {
                         </div>
                         <div className="pro">
                             <a
-                                href="https://ankuram.vercel.app"
+                                href="https://tindog-bootcamp.vercel.app"
                                 rel="noopener noreferrer"
                                 target="_blank"
                             >
                                 <img
                                     className="projects-img"
-                                    src={pregnant}
-                                    alt="sunnyside"
+                                    src={tindog}
+                                    alt="tindog"
                                 />
                             </a>
-                            <p className="projects-text">Ankuram</p>
+                            <p className="projects-text">Tindog</p>
                         </div>
                         <div className="pro">
                             <a
-                                href="https://bookify-eta.vercel.app"
+                                href="https://guess-the-no.vercel.app"
                                 rel="noopener noreferrer"
                                 target="_blank"
                             >
                                 <img
                                     className="projects-img"
-                                    src={book}
-                                    alt="sunnyside"
+                                    src={guess}
+                                    alt="guess-the-number"
                                 />
                             </a>
-                            <p className="projects-text">Bookify</p>
+                            <p className="projects-text">Guess The Number</p>
+                        </div>
+                        <div className="pro">
+                            <a
+                                href="https://roll-the-dice-amber.vercel.app"
+                                rel="noopener noreferrer"
+                                target="_blank"
+                            >
+                                <img
+                                    className="projects-img"
+                                    src={roll}
+                                    alt="roll-the-dice"
+                                />
+                            </a>
+                            <p className="projects-text">Roll The Dice</p>
+                        </div>
+                        <div className="pro">
+                            <a
+                                href="https://drum-cyan.vercel.app"
+                                rel="noopener noreferrer"
+                                target="_blank"
+                            >
+                                <img
+                                    className="projects-img"
+                                    src={drumkit}
+                                    alt="drumkit"
+                                />
+                            </a>
+                            <p className="projects-text">Drumkit</p>
+                        </div>
+                        <div className="pro">
+                            <a
+                                href="https://simon-says-rho.vercel.app"
+                                rel="noopener noreferrer"
+                                target="_blank"
+                            >
+                                <img
+                                    className="projects-img"
+                                    src={simon}
+                                    alt="simon-says"
+                                />
+                            </a>
+                            <p className="projects-text">Simon Says</p>
                         </div>
                     </div>
                 </div>
